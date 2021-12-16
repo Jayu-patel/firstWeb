@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Georgia;
 }
+/* ///////////////////// box1 ///////////////////// */
 .box{
   position: relative;
   width: 100%;
@@ -36,6 +37,7 @@
 }
 .text h2{
   font-size: 45px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 .nav{
@@ -60,6 +62,7 @@
   font-size: 18px;
   border-bottom: 2px solid white;
 }
+/* ///////////////////// box2 ///////////////////// */
 .box2 .sec1{
   color: white;
   background: rgb(10,20,50);
@@ -90,6 +93,7 @@
     object-fit: cover;
   }
 }
+/* ///////////////////// box3 ///////////////////// */
 .box3{
   color: white;
   background: rgb(5,5,5);
@@ -116,7 +120,8 @@
   align-items: center;
 }
 .b3i{
-  box-shadow: 0 0 10px rgb(5,5,5)
+  box-shadow: 0 0 10px rgb(5,5,5);
+  text-decoration: underline;
 }
 .box3 .sec2{
   display: flex;
@@ -136,6 +141,7 @@
   justify-content: space-around;
 }
 }
+/* ///////////////////// box4 ///////////////////// */
 .box4{
  background: rgb(35,180,255);
  padding-top: 150px;
@@ -183,5 +189,71 @@
   }
   .box3 .sec2 .b3i{
     font-size: 30px;
+  }
+}
+/* ///////////////////// box5 ///////////////////// */
+.box5 .sec1{
+  text-align: center;
+  padding: 90px 60px;
+  color: white;
+  background: rgb(10,20,50);
+}
+.box5 .sec1 h2{
+  padding: 10px 0;
+}
+/* ///////////////////// box6 ///////////////////// */
+.box6{
+  background: rgb(5,5,5);
+}
+.box6 .sec1{
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.box6 .sec2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.box6 .sec2 .sec11{
+  text-align: center;
+  padding: 50px 40px;
+  background: white;
+  width: 350px;
+  margin-bottom: 45px;
+}
+footer{
+  background: rgb(10,20,50);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p{
+  color: white;
+  padding: 15px;
+}
+footer ul{
+  color: white;
+  display: flex;
+}
+footer ul li{
+  list-style: none;
+  padding: 15px;
+}
+@media (min-width: 600px){
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer p{
+    padding: 25px;
+  }
+  footer ul li{
+    padding: 25px;
   }
 }
