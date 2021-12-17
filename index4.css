@@ -5,7 +5,9 @@
   font-family: Georgia;
 }
 /* ///////////////////// box1 ///////////////////// */
-.box{
+/* ///////////////////// box1 ///////////////////// */
+/* ///////////////////// box1 ///////////////////// */
+.box1 {
   position: relative;
   width: 100%;
   height: 85vh;
@@ -14,7 +16,7 @@
   justify-content: center;
   align-items: center;
 }
-.box img{
+.box1 img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -23,24 +25,24 @@
   object-fit: cover;
   opacity: 0.25;
 }
-.box .text{
+.box1 .text {
   position: relative;
   color: #fff;
   text-align: center;
   font-size: 15px;
   max-width: 600px;
 }
-@media (max-width: 600px){
-  .box .text{
+@media (max-width: 600px) {
+  .box1 .text {
     max-width: 400px;
   }
 }
-.text h2{
+.text h2 {
   font-size: 45px;
   margin-bottom: 10px;
   font-weight: 700;
 }
-.nav{
+.nav {
   width: 100%;
   position: absolute;
   top: 0;
@@ -50,64 +52,68 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav a{
+.nav a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 700;
 }
-.nav .toggle{
+.nav .toggle {
   color: white;
   font-size: 18px;
   border-bottom: 2px solid white;
 }
 /* ///////////////////// box2 ///////////////////// */
-.box2 .sec1{
+/* ///////////////////// box2 ///////////////////// */
+/* ///////////////////// box2 ///////////////////// */
+.box2 .section1 {
   color: white;
   background: rgb(10,20,50);
   text-align: center;
   padding: 90px;
 }
-.box2 .sec2{
+.box2 .section2 {
   width: 100%;
   height: auto;
   background: rgb(5,5,5);
 }
-.box2 .sec2 img{
+.box2 .section2 img {
   width: 100%;
 }
-@media (min-width: 600px){
-  .box2{
+@media (min-width: 600px) {
+  .box2 {
     display: flex;
   }
-  .box2 .sec1{
+  .box2 .section1 {
     width: 50%;
   }
-  .box2 .sec2{
+  .box2 .section2 {
     width: 50%;
   }
-  .box2 .sec2 img{
+  .box2 .section2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
 /* ///////////////////// box3 ///////////////////// */
-.box3{
+/* ///////////////////// box3 ///////////////////// */
+/* ///////////////////// box3 ///////////////////// */
+.box3 {
   color: white;
   background: rgb(5,5,5);
   text-align: center;
 }
-.box3 .sec1{
+.box3 .section1 {
   padding: 40px 0;
 }
-@media (min-width: 600px){
-  .box3 .sec1{
+@media (min-width: 600px) {
+  .box3 .section1 {
     padding: 100px 50px;
   }
 }
-.b3i{
+.card {
   color: black;
   font-size: 30px;
   font-weight: 800;
@@ -119,49 +125,52 @@
   justify-content: center;
   align-items: center;
 }
-.b3i{
+.card {
   box-shadow: 0 0 10px rgb(5,5,5);
   text-decoration: underline;
 }
-.box3 .sec2{
+.box3 .section2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-@media (min-width: 600px){
-  .b3i{
-  height: 200px;
-  width: 150px;
-  background: rgb(240,240,240);
-  margin: 1rem;
-}
-  .box3 .sec2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+@media (min-width: 600px) {
+  .card {
+    height: 200px;
+    width: 150px;
+    background: rgb(240,240,240);
+    margin: 1rem;
+  }
+  .box3 .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 /* ///////////////////// box4 ///////////////////// */
-.box4{
- background: rgb(35,180,255);
- padding-top: 150px;
- padding-bottom: 70px;
- margin-top: -100px;
+/* ///////////////////// box4 ///////////////////// */
+/* ///////////////////// box4 ///////////////////// */
+.box4 {
+  background: rgb(35,180,255);
+  padding-top: 150px;
+  padding-bottom: 70px;
+  margin-top: -100px;
 }
-.box4 .sec1{
+.box4 .section1 {
+  font-size: 1em;
   text-align: center;
   padding: 20px;
   color: white;
 }
-.box4 .sec1 .hedding{
+.box4 .section1 .hedding {
   margin: 10px 0;
   font-weight: 700;
 }
-.box4 .sec2{
+.box4 .section2 {
   display: flex;
   justify-content: space-around;
 }
-.box4 .sec2 .boxa{
+.box4 .section2 .small-box {
   color: white;
   font-size: 45px;
   font-weight: 800;
@@ -173,58 +182,76 @@
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 600px){
-  .box4{
+@media (min-width: 600px) {
+  .box4 {
     display: flex;
   }
-  .box4 .sec1{
+  .box4 .section1 {
     width: 50%;
   }
-  .box4 .sec2{
+  .box4 .section2 {
     margin: 10px auto 0 auto;
     width: 40%;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
   }
-  .box3 .sec2 .b3i{
+  .box3 .section2 .card {
     font-size: 30px;
   }
 }
 /* ///////////////////// box5 ///////////////////// */
-.box5 .sec1{
+/* ///////////////////// box5 ///////////////////// */
+/* ///////////////////// box5 ///////////////////// */
+.box5 .section1 {
   text-align: center;
   padding: 90px 60px;
   color: white;
   background: rgb(10,20,50);
 }
-.box5 .sec1 h2{
+@media (min-width: 600px) {
+  .box5 .section1 {
+    padding: 135px 65px;
+  }
+}
+.box5 .section1 h2 {
   padding: 10px 0;
 }
 /* ///////////////////// box6 ///////////////////// */
-.box6{
+/* ///////////////////// box6 ///////////////////// */
+/* ///////////////////// box6 ///////////////////// */
+.box6 {
   background: rgb(5,5,5);
 }
-.box6 .sec1{
+.box6 .section1 {
   text-align: center;
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;
 }
-.box6 .sec2{
+.box6 .section2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-.box6 .sec2 .sec11{
+.box6 .section2 .section11 {
+  font-style: oblique;
   text-align: center;
   padding: 50px 40px;
   background: white;
   width: 350px;
   margin-bottom: 45px;
 }
-footer{
+@media (min-width: 600px) {
+  .box6 .section1 {
+    padding-top: 90px;
+  }
+  .box6 .section2 .section11 {
+    margin-bottom: 75px;
+  }
+}
+footer {
   background: rgb(10,20,50);
   display: flex;
   flex-direction: column;
@@ -232,28 +259,28 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
-footer p{
+footer p {
   color: white;
   padding: 15px;
 }
-footer ul{
+footer ul {
   color: white;
   display: flex;
 }
-footer ul li{
+footer ul li {
   list-style: none;
   padding: 15px;
 }
-@media (min-width: 600px){
-  footer{
+@media (min-width: 600px) {
+  footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  footer p{
+  footer p {
     padding: 25px;
   }
-  footer ul li{
+  footer ul li {
     padding: 25px;
   }
 }
